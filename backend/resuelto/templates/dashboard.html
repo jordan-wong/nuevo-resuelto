@@ -31,6 +31,7 @@
     
     <div class="jumbotron bg-primary text-center text-white">
         <h1 class="logo" style="font-family: 'Major Mono Display', monospace;">NewRes</h1>
+        <h1>Hello {{request.user}}</h1>
     </div>
 
 
@@ -92,6 +93,9 @@
                         </div>
                         <div class="col-sm-9">
                             <input type="text" id="fname" name="{{form.title.name}}" placeholder="Title">
+
+                            <input type="text" id="fname" name="{{form.title.name}}" placeholder="Title">
+
                         </div>
                     </div>
                     
@@ -100,7 +104,9 @@
                             <label for="EXPIRES_M">Finish Date</label>
                         </div>
                         <div class="col-sm-9">
+
                             <input type="date" id="goalDate" name="{{form.expires.name}}">
+
                         <!-- Option for date picking
                             <select id="EXPIRES_Month" name="EXPIRES_M">
                                 <option value="Jan">Jan</option>
