@@ -7,7 +7,10 @@ h5.goalDateInfo{
   }
 .jumbotron {
     margin-bottom:0;
+    padding-top: 25px;
     background-color: #9CF7EC !Important; 
+    height: 150px;
+    align-content: center;
 }
 
 h1.logo{
